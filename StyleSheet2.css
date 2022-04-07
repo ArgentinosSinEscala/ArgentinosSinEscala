@@ -1,4 +1,4 @@
-/* CSS HEX */
+﻿/* CSS HEX */
 middle-blue-green: #97e6dbff;
 --aero-blue: #c2faddff;
 --eggshell: #f8efd7ff;
@@ -99,3 +99,12 @@ footer{
         flex-direction: column;
     }
 }
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Pasaporte */
+    color: white;
+  }
