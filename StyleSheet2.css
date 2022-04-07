@@ -104,7 +104,7 @@ footer{
     transition-duration: 0.4s;
   }
   
-  .button:hover {
+.button:hover {
     background-color: #4CAF50; /* Pasaporte */
     color: white;
   }
