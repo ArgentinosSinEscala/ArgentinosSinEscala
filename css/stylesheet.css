@@ -66,7 +66,8 @@ body{
         .navbar{
             flex: 5 1 auto;
             background: #4964c5; 
-            margin: 3px 13px 43px 3px;             
+            margin: 5px 5px 43px 5px;   
+            border-radius: 5px;          
         }
             .navbar a{
                 color: #fff;
@@ -99,6 +100,7 @@ body{
             */justify-content: center;
             
             
+            
         }
             
             .article{
@@ -106,6 +108,7 @@ body{
                 background: #00aac4;
                 letter-spacing: 1px;
                 margin: 10px 10px 0px 0px;
+                border-radius: 20px;
                 
             }
             /*.article img{
@@ -115,11 +118,12 @@ body{
             .article a{
                 color: #fff;
                 font-size: 13px;
-                padding: 10px 10px;
+                padding: 10px 10px 10px 10px;
                 background: rgb(30, 23, 165);
-                margin: 3px 0;
-                
-                
+                margin: 5px 3px ;
+                display: flex;
+                width: max-content;
+                border-radius: 20px;
             }
             .article a:hover{
                 background: #546cc3;
@@ -149,7 +153,7 @@ body{
                 
     .navegacion{
                /* background: rgb(41, 187, 46);
-                margin: 70px 10px 0 0px;*/
+                */margin: 10px 10px 10px 10px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -159,10 +163,10 @@ body{
             color:#fff;
             font-size: 11px;
             text-transform: uppercase;
-            padding: 0 10px;
+            padding: 10px 10px;
             letter-spacing: 2px;
-                    
         }
+
     .publicidades{
             /*background: #01ff2b;*/
             display: flex;
@@ -170,12 +174,9 @@ body{
             /*border-bottom: 2px solid rgba(255, 255, 255, .5);*/
     }
         .publicidad{
-            
             font-size: 13px;
-            
-            letter-spacing: 1px;
+            letter-spacing: 3px;
             margin: 10px 10px 0px 0px;
-                
         }
     .footer{
 
